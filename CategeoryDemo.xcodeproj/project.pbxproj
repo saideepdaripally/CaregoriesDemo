@@ -13,6 +13,8 @@
 		3BBBE3451E25564B00ACE3B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBBE3431E25564B00ACE3B2 /* Main.storyboard */; };
 		3BBBE3471E25564B00ACE3B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BBBE3461E25564B00ACE3B2 /* Assets.xcassets */; };
 		3BBBE34A1E25564B00ACE3B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBBE3481E25564B00ACE3B2 /* LaunchScreen.storyboard */; };
+		3BBBE3531E25568500ACE3B2 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBBE3521E25568500ACE3B2 /* Car.m */; };
+		3BBBE3561E255C2A00ACE3B2 /* Car+Maintenance.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBBE3551E255C2A00ACE3B2 /* Car+Maintenance.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		3BBBE3461E25564B00ACE3B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BBBE3491E25564B00ACE3B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BBBE34B1E25564B00ACE3B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BBBE3511E25568500ACE3B2 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		3BBBE3521E25568500ACE3B2 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		3BBBE3541E255C2A00ACE3B2 /* Car+Maintenance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Car+Maintenance.h"; sourceTree = "<group>"; };
+		3BBBE3551E255C2A00ACE3B2 /* Car+Maintenance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Car+Maintenance.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,10 @@
 		3BBBE32E1E25564B00ACE3B2 = {
 			isa = PBXGroup;
 			children = (
+				3BBBE3541E255C2A00ACE3B2 /* Car+Maintenance.h */,
+				3BBBE3551E255C2A00ACE3B2 /* Car+Maintenance.m */,
+				3BBBE3511E25568500ACE3B2 /* Car.h */,
+				3BBBE3521E25568500ACE3B2 /* Car.m */,
 				3BBBE3391E25564B00ACE3B2 /* CategeoryDemo */,
 				3BBBE3381E25564B00ACE3B2 /* Products */,
 			);
@@ -151,7 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BBBE3421E25564B00ACE3B2 /* ViewController.m in Sources */,
+				3BBBE3561E255C2A00ACE3B2 /* Car+Maintenance.m in Sources */,
 				3BBBE33F1E25564B00ACE3B2 /* AppDelegate.m in Sources */,
+				3BBBE3531E25568500ACE3B2 /* Car.m in Sources */,
 				3BBBE33C1E25564B00ACE3B2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

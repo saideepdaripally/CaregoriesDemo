@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "Car.h"
+#import "Car+Maintenance.h"
 
 @interface ViewController ()
 
@@ -16,6 +18,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    Car *carObj = [[Car alloc]init];
+    carObj.model = @"Rollsroys";
+    [carObj startEngine];
+    [carObj stopEngine];
+    
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
